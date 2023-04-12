@@ -4,6 +4,8 @@ function moveRocket(direction) {
 
   const backgroundWidth = shuttleBackground.offsetWidth;
   const backgroundHeight = shuttleBackground.offsetHeight;
+  console.log(backgroundWidth);
+  console.log(backgroundHeight);
 
   let bottom = parseInt(rocket.style.bottom) || 0;
   let left = parseInt(rocket.style.left) || 0;
